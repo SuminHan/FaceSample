@@ -29,6 +29,14 @@
                 android:value="com.microsoft.projectoxford.emotionsample.MainActivity" />
         </activity>
         <activity
+            android:name="com.microsoft.projectoxford.emotionsample.HistoryActivity"
+            android:label="@string/title_activity_history"
+            android:parentActivityName="com.microsoft.projectoxford.emotionsample.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.microsoft.projectoxford.emotionsample.MainActivity" />
+        </activity>
+        <activity
             android:name="com.microsoft.projectoxford.emotionsample.helper.SelectImageActivity"
             android:label="@string/select_an_image"
             android:screenOrientation="portrait" />

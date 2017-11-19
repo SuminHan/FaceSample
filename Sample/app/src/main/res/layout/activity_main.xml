@@ -18,6 +18,13 @@
             android:id="@+id/button_recognize"
             android:layout_gravity="center_horizontal"
             android:onClick="activityRecognize" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recognize History"
+            android:id="@+id/button_history"
+            android:layout_gravity="center_horizontal"
+            android:onClick="activityHistory" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
